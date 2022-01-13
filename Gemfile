@@ -13,9 +13,7 @@ gem "sprockets-rails"
 group :development, :test do
   gem "sqlite3", "~> 1.4"
 end
-group :production do
-  gem 'pg'
-end
+
 gem 'carrierwave'
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
